@@ -127,7 +127,7 @@ ul,ol         { list-style:none; }
 	text-align: center;
 }
 .menu_area{
-	background: url("./Images/menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("./images/menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	bottom: 0;
 	height: 50px;
 	position: absolute;
@@ -140,7 +140,7 @@ ul,ol         { list-style:none; }
 }
 
 .header_part{
-	background: url("./Images/background.jpg") repeat scroll center center / cover  rgba(0, 0, 0, 0);
+	background: url("./images/background.jpg") repeat scroll center center / cover  rgba(0, 0, 0, 0);
 	overflow: hidden;
 }
 .navbar-default {
@@ -149,7 +149,7 @@ ul,ol         { list-style:none; }
 }
 .logo{}
 .active{
-	background: url("./Images/active-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	background: url("./images/active-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 	color: #fff !important;
 }
 .logo a{

@@ -1,45 +1,239 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>PiStorms Challenge</title>
+
+    <!-- CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-<h1>PiStorms Challenge</h1>
-<h2>Introduction</h2>
+<body >
+    <!-- Header Section Start -->
+    <header id="header_part">
+        <div class="header_part" id="head">
+            <div class="overlay">
+                <div class="start_part">    
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="row">
+                                        <!-- Site Title start-->    
+                                        <div class="site_title">
+                                            <h1>PiStorms Challenge</h1>
+                                            <p>
+PiStorms Challenge is the first of challenge created by Lego Mindstorms community for developers worldwide. The idea is to promote innovation from the own community. In this challenge the idea is to innovate using as product base <a href="http://www.mindsensors.com/rpi-cases-and-mounts/133-frame-for-pistorms" target="_blank">the PiStorms case</a>
+                                            </p>
 <p>
-PiStorms Challenge is the first of challenge created by Lego Mindstorms community for developers worldwide. The idea is to promote innovation from the own community. In this challenge the idea is to innovate using as product base <a href="http://www.mindsensors.com/rpi-cases-and-mounts/133-frame-for-pistorms" target="_blank">the PiStorms case</a>:
-</p>
-<img src="./Images/frame-for-pistorms.jpg" />
-<p>
-and the challenge is to modify/change or redesign this case in order to create better robots using this case in combination with Raspberry Pi & Raspberry Pi 2 with the hat PiStorms.
-</p>
+The challenge invites 3D Designers to modify/change or redesign this case in order to create better robots using this case in combination with Raspberry Pi & Raspberry Pi 2 with the board PiStorms.
+</p> 
+                                            <p>
+Read the rules to participate in the challenge to get a PiStorms board.
+                                            </p>                                          
+                                            <h2>Time to start the challenge:</h2>
+                                        </div>
+                                        <!-- Site Title end-->
+                                        <!-- Countdown start -->
+                                        <div class="countdown wow bounceInUp">
+                                            <div class="defaultCountdown"></div>
+                                        </div>
+                                        <!-- Countdown end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>  
+                <!-- Menu Start -->
+                <div class="menu_area" id="stick_menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <nav class="navbar navbar-default" role="navigation">
+                                    <div class="container-fluid">
+                                        <div class="collapse navbar-collapse mainnavmenu" id="bs-example-navbar-collapse-1">
+                                        <div id="menu-center">
+                                            <ul class="nav navbar-nav navbar-right mainnav">
+                                                <li><a href="#header_part" >Start</a></li>
+                                                <li><a href="#rules">Rules</a></li>
+                                                <li><a href="#criteria">Criterias</a></li>
+                                                <li><a href="#prize">The prize</a></li>
+                                                <li><a href="#contact_section">Contact</a></li> 
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu End-->
+            </div>
+        </div>  
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Rules Start --> 
+    <section id="rules">
+        <div class="email_subscribe_section" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2>Rules to participate in the Challenge</h2>
 </p>
 The base elements used to begin the challenge are:
 <p>
 <ul>
-	<li><a href="http://www.philohome.com/pistorms/pistorms.htm" target="_blank">http://www.philohome.com/pistorms/pistorms.htm</a></li>
-	<li><a href="http://www.mindsensors.com/rpi-cases-and-mounts/156-pistorms-frame-cad-files" target="_blank" >http://www.mindsensors.com/rpi-cases-and-mounts/156-pistorms-frame-cad-files</a></li>
+    <li><a href="http://www.philohome.com/pistorms/pistorms.htm" target="_blank">http://www.philohome.com/pistorms/pistorms.htm</a></li>
+    <li><a href="http://www.mindsensors.com/rpi-cases-and-mounts/156-pistorms-frame-cad-files" target="_blank" >http://www.mindsensors.com/rpi-cases-and-mounts/156-pistorms-frame-cad-files</a></li>
 </ul>
-<h2>How to participate in the challenge?</h2>
 <p>
-Participate in the challenge is very easy, fork the Github repository: http://github.com/mindstormsChallenges/challengeCase . In this repo, you will see the materials to work. All participants has the opportunity to make pull request with this innovation for the case from 15/3/2016 00:00am to 15/5/2016 00:00am every contribution to be valid has to include:
+Participate in the challenge is very easy, fork the Github repository: <a href="https://github.com/mindstormschallenges/challenge1" target="_blank">https://github.com/mindstormschallenges/challenge1</a>. In this repo, you will see the materials to work. All participants has the opportunity to make pull request with this innovation for the case from <strong>15/3/2016 00:00am</strong> to <strong>15/5/2016 00:00am</strong> every contribution to be valid has to include:
 </p>
 <ul>
-	<li>folder with the github user</li>
-	<li>a cad/ldraw with the model</li>
-	<li>a image with the model</li>
+    <li>folder with your github user</li>
+    <li>a cad/ldraw with the model</li>
+    <li>a image with the model</li>
 </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <!-- Rules Section End -->
+
+    <!-- About Section Start -->      
+    <section id="criteria">
+        <div class="welcome_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">   
+                        <!-- About text start -->
+                            <div class="section-title">
+                                <h2>Criteria to evaluate</h2>
+                                <p>The panel of experts will valorate:</p>
+                            </div>
+                        <!-- About text end --> 
+                        </div>
+                        <!-- About service part start--> 
+                        <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <div class="welcome_part wow fadeInLeft">
+                                        <div class="welcome_icon">
+                                            <i class="fa fa-file-image-o fa-4x"></i>
+                                        </div>
+                                        <h2>CREATIVITY</h2>
+                                        <p>
+We valorate the creativity of the case and the possible applications to build simple and complex robots.
+                                        </p>
+                                    </div>
+                                </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div class="welcome_part wow fadeInUp">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-life-ring fa-4x"></i>
+                                    </div>
+                                    <h2>EASE TO COMBINE</h2>
+                                    <p>
+The ease to combine with the construction system is a critical point.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div class="welcome_part wow fadeInDown">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-briefcase fa-4x"></i>
+                                    </div>
+                                    <h2>EASE TO PUT PISTORMS &amp; BATTERY</h2>
+                                    <p>
+The ease to put a Raspberry Pi with the board PiStorms is important. The robot builder need to extract the battery in a easy way.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                <div class="welcome_part wow fadeInRight">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-trophy fa-4x"></i>
+                                    </div>
+                                    <h2>EASE TO PUT SENSORS &amp; MOTORS</h2>
+                                    <p>
+Think in some creative ways to put sensors &amps motors in a easy way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>  
+                        <!-- About service part end--> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Subscriber Section Start --> 
+    <section id="prize">
+        <div class="email_subscribe_section" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <!-- Email Subscriber text start--> 
+                        <div class="section-title">
+                            <h2>The prize</h2>
 <p>
-The panel of experts will valorate:
+The best 3 desigsn will receive a PiStorms unit to use the case modeled with PiStorms. Mindsensors, the main sponsor of this challenge will deliver the unit to your home worldwide.
 </p>
-<ul>
-	<li>the creativity</li>
-	<li>the combination with lego construction kit</li>
-	<li>the ease to put PiStorms hat</li>
-	<li>the ease to put PiStorm battery set</li>
-	<li>the easy to put sensor & motors</li>
-</ul>
-<h2>The prize</h2>
-<p>
-The best design will receive a 3 case designers will receive a PiStorms unit to use the case modeled with PiStorms. Mindsensors, the main sponsor of this challenge will deliver the unit to your home worldwide.
-</p>
+<a href="http://www.mindsensors.com/content/78-pistorms-lego-interface" target="_blank">
+    <img src="./Images/mounted-case-w1000.png" width="50%" />
+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <!-- Subscriber Section End -->
+
+  <!-- Contact Section Start -->  
+    <section id="contact_section">
+        <div class="contact_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Contact us</h2>
+                            <p>If you have some doubt, please <a href="https://github.com/mindstormschallenges/challenge1/issues" target="_blank">create a issue</a> in the project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Javascript -->
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery.smooth-scroll.js"></script>
+    <script src="Scripts/wow.min.js"></script>
+    <script src="Scripts/jquery.nicescroll.min.js"></script>
+    <script src="Scripts/jquery.countdown.min.js"></script>
+    <script src="Scripts/script.js"></script>
 </body>
 </html>

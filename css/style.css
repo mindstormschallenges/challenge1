@@ -198,7 +198,7 @@ ul,ol         { list-style:none; }
 }
 
 .site_title p a{
-
+	text-decoration: underline;
 }
 
 

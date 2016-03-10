@@ -113,11 +113,6 @@ ul,ol         { list-style:none; }
 	text-align: center;
 }
 
-.section-title p a, .section-title ul li a{
-	color: #666;
-	text-decoration: underline;
-}
-
 .section-title ul li a{
 	font-size: 16px;
 }
@@ -383,4 +378,11 @@ ul,ol         { list-style:none; }
 .contact_button:focus, .contact_button:active:focus, .contact_button.active:focus {
 	outline: medium none;
 	outline-offset: -2px;
+}
+/* Links Modifcations
+=====================================================================*/
+
+.section-title p a, .section-title ul li a, .welcome_part p a{
+	color: #666;
+	text-decoration: underline;
 }
